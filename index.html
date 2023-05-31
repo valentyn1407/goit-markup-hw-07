@@ -39,7 +39,7 @@
           </ul>
         </nav>
 
-        <button type="button" class="open-mobile-menu-btn" js-open-menu>
+        <button type="button" class="open-mobile-menu-btn js-open-menu" aria-expanded="false">
           <svg class="burger-icon" width="32" height="22">
             <use href="./images/icons.svg#burger"></use>
           </svg>
@@ -56,9 +56,9 @@
           </ul>
         </address>
       </div>
-      <div class="mobile-menu" js-menu-container>
+      <div class="mobile-menu js-menu-container">
         <div class="mobile-menu-container container">
-          <button type="button" class="close-mobile-menu-btn" js-close-menu>
+          <button type="button" class="close-mobile-menu-btn js-close-menu">
             <svg class="close-mobile-menu-icon" width="8" height="8">
               <use href="./images/icons.svg#close-btn"></use>
             </svg>
@@ -136,7 +136,7 @@
 
       <!-- section-company-features -->
 
-      <!-- <section class="company-features section">
+      <section class="company-features section">
         <div class="container features-container">
           <h2 class="visually-hidden">Company features</h2>
           <ul class="list features-list">
@@ -190,7 +190,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- section-what-are-we-doing -->
 
@@ -616,6 +616,12 @@
     </div> -->
 
     <script src="./js/mobile-menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
