@@ -454,6 +454,11 @@ p {
   margin-right: auto;
 }
 
+.modal {
+  width: 392px;
+  height: 584px;
+}
+
 /* =====/MOBILE STYLE===== */
 
 /* ===== TABLET STYLE ===== */
@@ -509,6 +514,10 @@ p {
     border-radius: 2px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal {
+    width: 408px;
   }
 
   /* ===== /header tablet===== */
@@ -1279,8 +1288,6 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  height: 584px;
 
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
