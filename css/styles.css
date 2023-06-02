@@ -33,8 +33,6 @@ p {
 }
 
 .list {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   padding: 0;
   margin: 0;
   list-style: none;
@@ -98,6 +96,22 @@ p {
 }
 
 /* ===== MOBILE STYLE ===== */
+
+.hero {
+  margin: auto;
+  padding: 112px 0 112px;
+  text-align: center;
+  max-width: 428px;
+  height: 432px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/mobile-images/@1x/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 @media screen and (max-width: 767px) {
   .container {
@@ -297,7 +311,7 @@ p {
   screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../mobile-images/people-office2x.jpg);
+      url(../images/mobile-images/@2x/people-office2x.jpg);
   }
 }
 
@@ -313,22 +327,6 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-
-.hero {
-  margin: auto;
-  padding: 112px 0 112px;
-  text-align: center;
-  max-width: 428px;
-  height: 432px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../mobile-images/people-office.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 /* =====features section===== */
@@ -546,7 +544,7 @@ p {
     margin-right: auto;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../tablet-images/people-office.jpg);
+      url(../images/tablet-images/@1x/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -649,7 +647,7 @@ p {
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../tablet-images/people-office2x.jpg);
+      url(../images/tablet-images/@2x/people-office2x.jpg);
   }
 }
 
@@ -733,7 +731,7 @@ p {
     margin-right: auto;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);
+      url(../images/desktop/@1x/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -888,6 +886,10 @@ p {
   .input-footer {
     width: 264px;
   }
+
+  .list-btn {
+    display: flex;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
@@ -895,7 +897,7 @@ p {
   screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/people-office2x.jpg);
+      url(../images/desktop/@2x/people-office2x.jpg);
   }
 }
 
