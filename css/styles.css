@@ -864,6 +864,10 @@ p {
     padding: 120px 0 120px;
   }
 
+  .members-company-container {
+    max-width: 1158px;
+  }
+
   /* =====/company members===== */
 
   /* =====customers===== */
@@ -879,6 +883,10 @@ p {
   .logo-customers {
     height: 88px;
     width: calc((100% - 120px) / 6);
+  }
+
+  .customers-container {
+    max-width: 1158px;
   }
 
   /* =====/customers===== */
