@@ -373,6 +373,12 @@ p {
 /* =====/features section===== */
 
 /* =====members company===== */
+
+.members-company {
+  padding: 96px 0 96px;
+  background-color: #f4f4fd;
+}
+
 .last-title {
   font-weight: 700;
   font-size: 36px;
@@ -598,11 +604,6 @@ p {
 
   .list-company-members {
     margin: 0;
-  }
-
-  .members-company {
-    padding: 96px 0 96px;
-    background-color: #f4f4fd;
   }
 
   /* =====/company members tablet===== */
