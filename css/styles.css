@@ -886,6 +886,10 @@ p {
     width: calc((100% - 120px) / 6);
   }
 
+  .list-customers {
+    row-gap: 0;
+  }
+
   .customers-container {
     max-width: 1158px;
   }
