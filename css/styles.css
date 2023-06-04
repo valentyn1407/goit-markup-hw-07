@@ -617,6 +617,10 @@ p {
   .logo-customers {
     width: calc((100% - 48px) / 3);
   }
+
+  .list-customers {
+    column-gap: 24px;
+  }
   /* =====/customers tablet===== */
 
   /* =====footer tablet===== */
@@ -875,10 +879,6 @@ p {
 
   .customers {
     padding: 120px 0 120px;
-  }
-
-  .list-customers {
-    gap: 24px;
   }
 
   .logo-customers {
